@@ -1,0 +1,103 @@
+
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #aaaaaa;
+      }
+      div.container {
+        overflow: auto;
+      }
+      header {
+        background-color: #e5e5e5;
+        padding: 15px;
+        text-align: center;
+      }
+      nav {
+        float: left;
+        width: 20%;
+        text-align: center;
+      }
+      nav ul {
+        padding-left: 0px;
+      }
+      nav li {
+        list-style: none;
+      }
+      nav li a {
+        background-color: #e5e5e5;
+        padding: 8px;
+        margin-top: 7px;
+        display: block;
+        width: 100%;
+        color: black;
+        font-weight: 700;
+      }
+      main {
+        float: left;
+        width: 60%;
+        padding: 0 20px;
+      }
+      .right {
+        background-color: #e5e5e5;
+        float: left;
+        width: 20%;
+        padding: 15px;
+        margin-top: 7px;
+        text-align: center;
+      }
+      .cards-conteiner{
+        display: flex;
+        flex-direction: row;
+      }
+      .card{
+        width: 300px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 1em;
+        text-align: center;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+      .card a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        color: black;
+      }
+      .card a img{
+        width: 200px;
+      }
+      .servicios{
+        background-color: #aaaaaa;
+        padding: 5px;
+        text-align: center;
+        color: #fff;
+      }
+      .servicios li{
+        list-style-type: none;
+        cursor: pointer;
+        padding: 5px;
+      }
+      .servicios li:hover{
+        color: #555;
+      }
+      footer {
+        background-color: #e5e5e5;
+        text-align: center;
+        padding: 10px;
+        margin-top: 7px;
+      }
+      @media only screen and (max-width: 620px) {
+        nav,
+        main,
+        .right {
+          width: 100%;
+        }
+      }
+      @media only screen and (max-width: 1024px){
+        .cards-conteiner{
+          flex-wrap: wrap;
+        }
+      }
