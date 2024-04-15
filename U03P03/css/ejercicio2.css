@@ -1,0 +1,25 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+    list-style: none;
+    width: max-content;
+}
+li{
+    background-color: rgba(123,198,199,0.8);
+}
+a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+}

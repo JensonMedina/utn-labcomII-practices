@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.card-title{
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    background-color: #fff;
+    color: #000;
+    flex: 1 1 0;
+    padding: 10px;
+}
+.card-footer{
+    height: 30px;
+    background-color: #aaa;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

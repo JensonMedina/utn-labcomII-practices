@@ -1,0 +1,16 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    justify-content: space-between;
+}
+li{
+    background-color: rgb(123,198,199,0.8);
+    flex: 1 1 0;
+}

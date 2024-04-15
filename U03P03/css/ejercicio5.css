@@ -1,0 +1,22 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: flex;
+    gap: 2px;
+    height: 100vh;
+}
+.flex-item{
+    padding: 12px 24px;
+}
+.sidebar{
+    background-color: aqua;
+    flex: 1;
+}
+.main{
+    background-color: aquamarine;
+    flex: 4;
+}
